@@ -28,7 +28,6 @@
             </div>
             <div class="s1-sub2">
                 <img src="profile-pic.jpg" alt="profile pic">
-                <!-- <button class="resume-button"  onclick="location.href=" type="button"> -->
                 <button class="resume-button" onclick="window.open('https://drive.google.com/file/d/19moge4VBTpP3rzI9S4-DrV_5GOfLH3K4/view?usp=sharing', '_blank');" type="button">
                     Resume
                 </button>
@@ -40,12 +39,14 @@
             <h1 style="text-align: center;">Education</h1>
             <div class="education-content">
                 <div class="degree-section">
-                    <h3 class="degree-text">
-                        Bachelor of Technology
-                    </h3>
-                    <p class="degree-duration">
-                        December 2020-Present
-                    </p>
+                    <div class="degree-section-institute">
+                        <h3 class="degree-text">
+                            Bachelor of Technology
+                        </h3>
+                        <p class="degree-duration">
+                            December 2020-Present
+                        </p>
+                    </div>
                 </div>
                 <div class="college-section">
                     <h3 class="college-section-heading">
@@ -87,8 +88,21 @@
             </h1>
             <div class="card-container">
                 <div class="project-card">
+                    <h3>E-Commerce Application in Android (Kotlin)</h3>
+                    <p>
+                        Built a fully fledged E-Commerce Application with Sign In
+                        , Register, Create User, Dashboard, Add Product, and Cart 
+                        Functionalities. Used Firestore Database as backend and 
+                        FirebaseAuth for authentication.
+                    </p>
+                    <a href="https://github.com/reejuBhattacharya/android-chat-app" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="project-card">
                     <h3>Android Chat Application</h3>
-                    <p>A chat application in Android/Kotlin 
+                    <p>
+                        A chat application in Android/Kotlin 
                         using Firebase as backend service. Includes
                         Google/Email Authentication and Latest Message 
                         tracker, implemented according to Material Design
@@ -100,7 +114,8 @@
                 </div>
                 <div class="project-card">
                     <h3>Coronavirus Tracker</h3>
-                    <p> A React.js application which shows data regarding
+                    <p>
+                        A React.js application which shows data regarding
                         current Covid-19 situation worldwide/countrywise. Fetches 
                         data from the covid-19-api API. Tabulates gross statistics
                         countrywise along with specific case data when searched.
